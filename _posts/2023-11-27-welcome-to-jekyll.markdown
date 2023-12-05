@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+featured_image: /assets/images/CameraFace.jpg
 date:   2023-11-27 21:04:30 -0330
 categories: jekyll update
 ---

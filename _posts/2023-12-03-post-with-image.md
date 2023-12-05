@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My First Post with an Image"
-featured_image: /find-the-beauty/assets/images/CameraFace.jpg
+featured_image: /assets/images/CameraFace.jpg
 date:   2023-12-03
 ---
 
