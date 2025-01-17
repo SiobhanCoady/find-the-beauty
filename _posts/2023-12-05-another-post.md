@@ -5,6 +5,6 @@ featured_image: /assets/images/Elephants.jpg
 date:   2023-12-05
 ---
 
-# Another Post to Test Column Layout
+## Another Post to Test Column Layout
 
 Let's see how this goes...
