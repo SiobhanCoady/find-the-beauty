@@ -36,6 +36,14 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .gallery-item {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+}
+
 .gallery-item:hover {
   transform: scale(1.05); /* Add a subtle scale effect on hover */
 }
@@ -47,10 +55,30 @@ body {
   object-position: center center;
 }
 
+.gallery-item span {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+
 .fallback-image {
   /* Add styles for the fallback image when there's no featured_image */
   background-color: #eee;
   height: 200px; /* Set a fixed height for the fallback image */
+}
+
+/* Video container styles */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  aspect-ratio: 9/16;
 }
 
 .nav-button {
